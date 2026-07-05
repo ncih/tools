@@ -55,6 +55,16 @@ window.DECK_CONFIG = {
     ]
   },
 
+  /* ---- Exit ramp — no page of this site should dead-end a visitor ----------
+     `badge` renders as a small always-visible chip/link on all three pages
+     (deck top-right, companion bottom-left, presenter footer). `more` is the
+     "keep going" link shown at the end of the deck and on the companion's
+     final card. Delete the block to remove the ramp entirely. */
+  exitRamp: {
+    badge: { label: "nicholaschong.xyz", href: "https://nicholaschong.xyz" },
+    more:  { label: "More from Nicholas — free tools & resources", href: "https://nicholaschong.xyz/resources" }
+  },
+
   /* ---- Registration screen -------------------------------------------------*/
   register: {
     kicker: "60 seconds",
